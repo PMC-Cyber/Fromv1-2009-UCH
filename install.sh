@@ -146,7 +146,7 @@ echo " "
 # masuk halaman login install
 
 cd
-cd https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
+git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
 cd Fromv1-2009-UCH
 cd login-tools
 python login-install.py
