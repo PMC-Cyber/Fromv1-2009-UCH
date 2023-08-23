@@ -29,6 +29,10 @@ green='\e[1;32m'
  sleep 3.7 
  echo "" 
  cd $HOME 
- cd Fromv1-2009-UCH 
+ cd Fromv1-2009-UCH
+ cd
+ cd Fromv1-2009-UCH
+ bash install.sh
+ 
  clear
  echo -e "$red [ $yellow + $red ] $green Going Out ! "
