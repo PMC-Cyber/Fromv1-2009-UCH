@@ -77,6 +77,7 @@ echo " "
 # login password uch
 
 cd
+cd
 git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
 cd Fromv1-2009-UCH
 cd pwsd-tools
@@ -159,12 +160,11 @@ echo -e "${BLUE}║\e[32m[\e[33m5\e[32m]${BLUE}║${WHITE}  ALIENS EYE CEK NAME 
 echo -e "${BLUE}║\e[32m[\e[33m6\e[32m]${BLUE}║${WHITE}  MENGECEK JARINGAN TOOLS       ${BLUE}║ ${BLUE}║\e[32m[\e[33mF\e[32m]${BLUE}║${WHITE}  GRAB CAM TOOLS                ${BLUE}║"
 echo -e "${BLUE}╚═══╩════════════════════════════════╝ ╚═══╩════════════════════════════════╝"
 echo " "
-echo "${GREEN} KETIK [KELUAR] Kalo mau Logout "
-echo "${GREEN} KETIK [UP] Buat Update Tools Yang Versi Terbaru "
-
+echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}KELUAR${GREEN} ] ${WHITE}Kalo mau Logout "
+echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}UP${GREEN} ] ${WHITE}Buat Update Tools Yang Versi Terbaru "
 echo " "
-echo -e $w "┏⟦ Pilih sesuai yang mau tuan gunakan :) "
-read -p  " ┗☞ Enter Your Number :" pil  ;
+echo -e $w "${WHITE}┏⟦ ${ORANGE}Pilih sesuai yang mau tuan gunakan ${WHITE}:) "
+read -p  " ${WHITE}┗☞ ${ORANGE}Enter Your Number ${WHITE}:" pil  ;
 
 clear
 
@@ -480,14 +480,48 @@ echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Installing Update in Termux.."
     echo " "
       sleep 2s
    echo "~{${ORANGE} Bersiap Untuk Mengupdate Tools ${GREEN}}~"
+   
    echo " "
-   git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
-cd Fromv1-2009-UCH
-bash update.sh
+  green='\e[1;32m' 
+ red='\e[1;31m' 
+ yellow='\e[1;33m' 
+ resetcollor='\e[0m' 
+printf "\e[1;31mFollow me one github\e[0m" 
+ echo 
+  
+ echo -e "\E[1;33m::::::::::::::::::: \e[97m  UCH 2009  \E[1;33m::::::::::::::::::::" 
+ echo -e "\e[97m                      ______ 
+                    .-        -. 
+                   /            \ 
+        \e[94m* \e[97m                                   \e[90m* \e[97m 
+                  |,  .-.  .-.  ,|        \e[32m* \e[97m 
+                  | )(_ /  \_ )( | 
+   \e[33m* \e[97m             |/     /\     \| 
+        (@_       <__    ^^    __>         \e[95m* \e[97m 
+   _     ) \_______\__|IIIIII|__/____________\e[31m___________ \e[97m 
+  (_)\e[31m@8@8\e[97m{}<________\e[31m_____\e[97m_____________\e[31m___________________> \e[97m 
+         )_/         \ IIIIII /                    \e[31m::::: \e[97m 
+        (@            --------                        \e[31m:: \e[97m 
+         " 
+ cd $HOME 
+ rm -rf Fromv1-2009-UCH
+ git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git 
+ clear 
+ echo "" 
+ echo -e "${RED} [ ${ORANGE} + ${RED} ] ${GREEN} Tools UCH 2009 was successfully updated. $resetcollor" 
+ sleep 3.7 
+ echo "" 
+ cd $HOME 
+ cd Fromv1-2009-UCH
+ cd
+ cd Fromv1-2009-UCH
+ echo -e "${RED} [ ${ORANGE} + ${RED} ] ${GREEN}Going Out ! "
+ clear
 bash Fromv1.sh
+
+;;
 
 *) echo "${WHITE}PILIH YG BENER CUK !!"
 esac
 done
 done
-
