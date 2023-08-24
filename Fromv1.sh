@@ -359,8 +359,10 @@ echo "${ORANGE} SILAKAN IKUT PERINTAH DI BAWAH "
 echo "${GREEN} Masukan Ulang Command di bawah ini Dan di tambahkan sesuai Lokasi kota kalian"
 echo "${RED}===> ${ORANGE}curl http://wttr.in/"
 echo "${RED}===> ${WHITE}Contoh :${ORANGE}curl http://wttr.in/purwokerto"
-
-      exit
+cd $HOME 
+ cd Fromv1-2009-UCH
+ cd
+ cd Fromv1-2009-UCH
  
 ;;
 
