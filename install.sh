@@ -373,7 +373,7 @@ clear
 echo " "
 echo -e "${RED}[${ORANGE}+${RED}] ${GREEN} Going Out ! "
 echo -e "${RED}[${ORANGE}!${RED}]${WHITE} apabila tua mau masuk ke toolsnya lagi bisa ketikan Command"
-echo -e "${RED}==> ${ORANGE}cd $HOME"
+echo -e "${RED}==> ${ORANGE}cd"
 echo -e "${RED}==> ${ORANGE}cd Fromv1-2009-UCH "
 echo -e "${RED}==> ${ORANGE}bash install.sh"
 echo " "
