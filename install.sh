@@ -30,6 +30,8 @@ DEFAULT_FG="$(printf '\033[39m')"  DEFAULT_BG="$(printf '\033[49m')"
 
 clear
 
+#data sepesifikasi hp code
+
 NOW=`date "+%d.%m.%Y"`
 TIME=`date "+%H:%M"`
 neofetch
@@ -84,7 +86,7 @@ echo -e ${WHITE}"⠀    ⠀⠀⠀       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉�
 echo " "
 echo -e "              ${RED}[ ${ORANGE} WELCOME TO FROM UNLIMITED CRAK YOU 2009 ${RED}]"
 echo -e "           ${WHITE}SEBELUM MASUK KE FROM UCH SUBSCRIBE FULU LAH CN AING"
-am start -a android.intent.action.VIEW https://www.youtube.com/@unlimited-crak-you
+          am start -a android.intent.action.VIEW https://www.youtube.com/@unlimited-crak-you
 sleep 5
 
 # tampilan login 
@@ -144,12 +146,14 @@ echo "${WHITE} ┇  ┇┗┛┛━┛━━┛┻━┛━━┛   ┇ ┛━�
 echo " "
 
 # masuk halaman login install
+
 cd
 cd
 git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
 cd Fromv1-2009-UCH
 cd login-tools
 python login-install.py
+
 clear
 
 sleep 1s
