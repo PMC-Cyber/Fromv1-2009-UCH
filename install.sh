@@ -144,7 +144,7 @@ echo "${WHITE} ┇  ┇┗┛┛━┛━━┛┻━┛━━┛   ┇ ┛━�
 echo " "
 
 # masuk halaman login install
-
+cd
 cd
 git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
 cd Fromv1-2009-UCH
@@ -198,9 +198,9 @@ do
 # installasi Tipe
 
 echo " "
-echo -e "${WHITE} ╦ ╔╗╔ ╔═╗ ╔╦╗ ╔═╗ ╦┈┈ ╦┈┈ ╔═╗ ╔═╗ ╦ ┈ ╔╦╗ ╦ ╔═╗ ╔═╗  "
-echo -e "${WHITE} ║ ║║║ ╚═╗ ┈║┈ ╠═╣ ║┈┈ ║┈┈ ╠═╣ ╚═╗ ║ ┈ ┈║┈ ║ ╠═╝ ║╣"
-echo -e "${WHITE} ╩ ╝╚╝ ╚═╝ ┈╩┈ ╩┈╩ ╩═╝ ╩═╝ ╩┈╩ ╚═╝ ╩ ┈ ┈╩┈ ╩ ╩┈┈ ╚═╝ " 
+echo -e "${WHITE} ╦ ╔╗╔ ╔═╗ ╔╦╗ ╔═╗ ╦   ╦   ╔═╗ ╔═╗ ╦   ╔╦╗ ╦ ╔═╗ ╔═╗  "
+echo -e "${WHITE} ║ ║║║ ╚═╗  ║  ╠═╣ ║   ║   ╠═╣ ╚═╗ ║    ║  ║ ╠═╝ ║╣"
+echo -e "${WHITE} ╩ ╝╚╝ ╚═╝  ╩  ╩ ╩ ╩═╝ ╩═╝ ╩ ╩ ╚═╝ ╩    ╩  ╩ ╩   ╚═╝ " 
 sleep 1s
 echo -e "[${RED} Silakan pilih tipe software installasi yang anda gunakan ${WHITE}] "
 sleep 1s
@@ -225,18 +225,19 @@ read -p  " ┗☞ Enter Your Number :" pil  ;
 clear
 
 echo " "
-echo "${WHITE}╦ ╔╗╔ ╔═╗ ╔╦╗ ╔═╗ ╦┈┈ ╦┈┈ ╔═╗ ╔═╗ ╦┈  ╔╦╗ ╔═╗ ╔═╗ ╦┈┈ ╔═╗    "
+echo "${WHITE}╦ ╔╗╔ ╔═╗ ╔╦╗ ╔═╗ ╦┈┈ ╦┈┈ ╔═╗ ╔═╗ ╦┈  ╔╦╗ ╔═╗ ╔═╗ ╦┈┈ ╔═╗   "
 echo "${WHITE}║ ║║║ ╚═╗ ┈║┈ ╠═╣ ║┈┈ ║┈┈ ╠═╣ ╚═╗ ║ ┈ ┈║┈ ║┈║ ║┈║ ║┈┈ ╚═╗   "
-echo "${WHITE}╩ ╝╚╝ ╚═╝ ┈╩┈ ╩┈╩ ╩═╝ ╩═╝ ╩┈╩ ╚═╝ ╩ ┈  ╩┈ ╚═╝ ╚═╝ ╩═╝ ╚═╝     " 
-echo "${WHITE}    [${GREEN} TIPE INSTALLASI TERMUX , LINUX , NETHUNTER ${WHITE}]"
+echo "${WHITE}╩ ╝╚╝ ╚═╝ ┈╩┈ ╩┈╩ ╩═╝ ╩═╝ ╩┈╩ ╚═╝ ╩ ┈  ╩┈ ╚═╝ ╚═╝ ╩═╝ ╚═╝   " 
+echo "${WHITE}   [${GREEN} TIPE INSTALLASI TERMUX , LINUX , NETHUNTER ${WHITE}]"
 echo " "
 
 # installasi Termux 
+
 case $pil in
 1)echo " "
-echo "${RED} ┏┳┓ ┏━┓ ┳━┓ ┏┳┓ ┳┈┳ ━┓┈┳    "
-echo "${RED} ┈┃┈ ┣┫┈ ┣┳┛ ┃┃┃ ┃┈┃ ┏┻┳┛    [ ${WHITE}Software Termux ${RED}] "
-echo "${RED} ┈┻┈ ┗━┛ ┻┗━ ┻┈┻ ┗━┛ ┻┈┗━    "
+echo "${RED} ┏┳┓ ┏━┓ ┳━┓ ┏┳┓ ┳ ┳ ━┓ ┳    "
+echo "${RED}  ┃  ┣┫  ┣┳┛ ┃┃┃ ┃ ┃ ┏┻┳┛    [ ${WHITE}Software Termux ${RED}] "
+echo "${RED}  ┻  ┗━┛ ┻┗━ ┻ ┻ ┗━┛ ┻ ┗━    "
 sleep 1s
 echo "${WHITE} Script By : UCH 2009 FROM"
 sleep 1s
@@ -271,9 +272,9 @@ bash Fromv1.sh
 # installasi Linux
 
 2)echo " "
-echo "${RED} ╦┈┈ ╦ ╔╗╔ ╦┈╦ ═╗┈╦ "
-echo "${RED} ║┈┈ ║ ║║║ ║┈║ ╔╩╦╝  [ ${WHITE}Software Linux ${RED}] "
-echo "${RED} ╩═╝ ╩ ╝╚╝ ╚═╝ ╩┈╚═ "
+echo "${RED} ╦   ╦ ╔╗╔ ╦ ╦ ═╗ ╦ "
+echo "${RED} ║   ║ ║║║ ║ ║ ╔╩╦╝  [ ${WHITE}Software Linux ${RED}] "
+echo "${RED} ╩═╝ ╩ ╝╚╝ ╚═╝ ╩ ╚═ "
 sleep 1s
 echo "${WHITE} Script By : UCH 2009 FROM"
 sleep 1s
@@ -303,14 +304,14 @@ git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
 cd Fromv1-2009-UCH
 bash Fromv1.sh
 
-	;;
+;;
 	
-	# installasi Kali Linux
+# installasi Kali Linux
 
 3)echo " "
-echo "${RED} ╦╔═ ╔═╗ ╦┈┈ ╦ ┈ ╦┈┈ ╦ ╔╗╔ ╦┈╦ ═╗┈╦ "
-echo "${RED} ╠╩╗ ╠═╣ ║┈┈ ║ ┈ ║┈┈ ║ ║║║ ║┈║ ╔╩╦╝ [ ${WHITE}Software NetHunter ${RED}] "
-echo "${RED} ╩┈╩ ╩┈╩ ╩═╝ ╩ ┈ ╩═╝ ╩ ╝╚╝ ╚═╝ ╩┈╚═ "
+echo "${RED} ╦╔═ ╔═╗ ╦   ╦   ╦   ╦ ╔╗╔ ╦ ╦ ═╗ ╦ "
+echo "${RED} ╠╩╗ ╠═╣ ║   ║   ║   ║ ║║║ ║ ║ ╔╩╦╝ [ ${WHITE}Software NetHunter ${RED}]"
+echo "${RED} ╩ ╩ ╩ ╩ ╩═╝ ╩   ╩═╝ ╩ ╝╚╝ ╚═╝ ╩ ╚═ "
 sleep 1s
 echo "${WHITE} Script By : UCH 2009 FROM"
 sleep 1s
@@ -339,6 +340,7 @@ sudo pip2 install termcolor
 git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
 cd Fromv1-2009-UCH
 bash Fromv1.sh
+
 ;;
 
 # LOGOUT SCRIPT
@@ -364,6 +366,13 @@ echo -e $bu"THANK'S Sampai Jumpa di Kemudian Hari"
 printf "\e[103m\e[1;77mBY : UCH 2009 FROM \e[0m\n"
 sleep 1
 clear
+echo " "
+echo -e "${RED}[${ORANGE}+${RED}] ${GREEN} Going Out ! "
+echo -e "${RED}[${ORANGE}!${RED}]${WHITE} apabila tua mau masuk ke toolsnya lagi bisa ketikan Command"
+echo -e "${RED}==> ${ORANGE}cd $HOME"
+echo -e "${RED}==> ${ORANGE}cd Fromv1-2009-UCH "
+echo -e "${RED}==> ${ORANGE}bash install.sh"
+echo " "
 exit
 
 ;;
