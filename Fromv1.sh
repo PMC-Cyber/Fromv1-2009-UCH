@@ -517,7 +517,8 @@ printf "\e[1;31mFollow me one github\e[0m"
  cd Fromv1-2009-UCH
  cd
  cd Fromv1-2009-UCH
- echo -e "${RED} [ ${ORANGE} + ${RED} ] ${GREEN}Going Out ! "
+ echo -e "${RED} [${ORANGE}+${RED}]${GREEN} Going Out ! "
+ echo -e "${RED} [${ORANGE}!${RED}]${WHITE} apabila tua mau masuk ke toolsnya lagi bisa ketikan Command ${GREEN}[ ${ORANGE}cd $HOME ${WHITE}dan lanjut ${ORANGE}cd Fromv1-2009-UCH ${WHITE}dan ${ORANGE}bash Fromv1.sh ${GREEN}] "
  clear
 bash Fromv1.sh
 
