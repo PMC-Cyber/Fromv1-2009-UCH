@@ -336,6 +336,7 @@ pip2 install termcolor
 pkg install nodejs
 pkg install neofetch -y
 npm install -g bash-obfuscate
+git clone https://github.com/Unlimited-Crack-You/ENC-Typ.git
 bash ENC-TTp.sh
 
 ;;
