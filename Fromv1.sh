@@ -472,7 +472,7 @@ bash grabcam.sh
 
 ;;
 
-A)echo "${WHITE} Script By : UCH 2009"
+G)echo "${WHITE} Script By : UCH 2009"
 sleep 1s
 echo  " "
 echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software Termux saat masuk Script Virus Malware Tools "
