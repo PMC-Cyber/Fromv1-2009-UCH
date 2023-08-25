@@ -158,6 +158,7 @@ echo -e "${BLUE}║\e[32m[\e[33m3\e[32m]${BLUE}║${WHITE}  SeeU (TOOLS HACKING 
 echo -e "${BLUE}║\e[32m[\e[33m4\e[32m]${BLUE}║${WHITE}  IG HACK BY NOB HACKER         ${BLUE}║ ${BLUE}║\e[32m[\e[33mD\e[32m]${BLUE}║${WHITE}  KUMPULAN COMMAND TERMUX PDF   ${BLUE}║"
 echo -e "${BLUE}║\e[32m[\e[33m5\e[32m]${BLUE}║${WHITE}  ALIENS EYE CEK NAME           ${BLUE}║ ${BLUE}║\e[32m[\e[33mE\e[32m]${BLUE}║${WHITE}  TOOLS ADV PHISING             ${BLUE}║" 
 echo -e "${BLUE}║\e[32m[\e[33m6\e[32m]${BLUE}║${WHITE}  MENGECEK JARINGAN TOOLS       ${BLUE}║ ${BLUE}║\e[32m[\e[33mF\e[32m]${BLUE}║${WHITE}  GRAB CAM TOOLS                ${BLUE}║"
+echo -e "${BLUE}║\e[32m[\e[33m7\e[32m]${BLUE}║${WHITE}  ENC & DNC - CYP BY UCH2009    ${BLUE}║ ${BLUE}║\e[32m[\e[33mG\e[32m]${BLUE}║${WHITE}  FOR VIRUS MALWARE             ${BLUE}║"
 echo -e "${BLUE}╚═══╩════════════════════════════════╝ ╚═══╩════════════════════════════════╝"
 echo " "
 echo "${WHITE} KETIK ${GREEN}[ ${ORANGE}KELUAR${GREEN} ] ${WHITE}Kalo mau Logout "
@@ -312,12 +313,39 @@ python aliens_eye.py
 
 ;;
 
+#ENC & DNC - CYP BY UCH2009 
+
+7)echo "${WHITE} Script By : UCH 2009"
+sleep 1s
+echo  " "
+echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software Termux saat masuk Script ENC & DNC - CYP BY UCH2009  "
+sleep 1s
+echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Installing Tools in Termux.."
+    echo " "
+      sleep 2s
+   echo "~{${ORANGE} Bersiap Untuk Memasuki Tools ${GREEN}}~"
+      sleep 3s
+      echo " "
+      echo " "
+pkg upgrade && pkg update
+pkg install git
+pkg install python2
+pkg install python
+pip2 install requests
+pip2 install termcolor
+pkg install nodejs
+pkg install neofetch -y
+npm install -g bash-obfuscate
+bash ENC-TTp.sh
+
+;;
+
 #TOOLS MENECEK JARINGAN
 
 6)echo "${WHITE} Script By : UCH 2009"
 sleep 1s
 echo  " "
-echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software Termux saat masuk Script Mengecek kecepatan jaringan "
+echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software Termux saat masuk Script  "
 sleep 1s
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Installing Tools in Termux.."
     echo " "
@@ -441,7 +469,20 @@ git clone https://github.com/noob-hackers/grabcam
 cd $HOME
 cd grabcam
 bash grabcam.sh
+
 ;;
+
+A)echo "${WHITE} Script By : UCH 2009"
+sleep 1s
+echo  " "
+echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software Termux saat masuk Script Virus Malware Tools "
+echo " "
+ sleep 2s
+   echo "~{${ORANGE} SAAT INI FITUR MASIH DALAM PERBAIKAN  ${GREEN}}~"
+ sleep 4s
+ 
+ ;;
+ 
 KELUAR) echo " "
 echo "${RED} ╦    ╔═╗ ╔═╗ ╔═╗ ╦ ╦ ╔╦╗   ╔═╗ ╔═╗ ╦═╗ ╦ ╔═╗ ╔╦╗ "
 echo "${RED} ║    ║ ║ ║ ╦ ║ ║ ║ ║  ║    ╚═╗ ║   ╠╦╝ ║ ╠═╝  ║"
@@ -548,4 +589,3 @@ bash Fromv1.sh
 esac
 done
 done
-
