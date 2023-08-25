@@ -339,8 +339,6 @@ npm install -g bash-obfuscate
 git clone https://github.com/Unlimited-Crack-You/ENC-Typ.git
 cd ENC-Typ
 bash ENC-TTp.sh
-cd $HOME
-cd ENC-Typ
 
 ;;
 
