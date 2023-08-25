@@ -337,6 +337,7 @@ pkg install nodejs
 pkg install neofetch -y
 npm install -g bash-obfuscate
 git clone https://github.com/Unlimited-Crack-You/ENC-Typ.git
+cd ENC-Typ
 bash ENC-TTp.sh
 
 ;;
