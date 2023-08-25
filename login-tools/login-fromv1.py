@@ -5,7 +5,7 @@ def mengetik(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
-        time.sleep(random.random() * 0.2)
+        time.sleep(random.random() * 0.1)
 mengetik('menghubungi server ...')
 mengetik('[-----]10%')
 mengetik('[-----]20%')
