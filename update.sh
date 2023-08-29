@@ -14,11 +14,24 @@ green='\e[1;32m'
  yellow='\e[1;33m' 
  resetcollor='\e[0m' 
  
- RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
-MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
-REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf '\033[43m')"  BLUEBG="$(printf '\033[44m')"
-MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
-DEFAULT_FG="$(printf '\033[39m')"  DEFAULT_BG="$(printf '\033[49m')"
+ RED="$(printf '\033[31m')"  
+GREEN="$(printf '\033[32m')"  
+ORANGE="$(printf '\033[33m')"  
+BLUE="$(printf '\033[34m')"
+MAGENTA="$(printf '\033[35m')"  
+CYAN="$(printf '\033[36m')"  
+WHITE="$(printf '\033[37m')" 
+BLACK="$(printf '\033[30m')"
+REDBG="$(printf '\033[41m')"  
+GREENBG="$(printf '\033[42m')"  
+ORANGEBG="$(printf '\033[43m')"  
+BLUEBG="$(printf '\033[44m')"
+MAGENTABG="$(printf '\033[45m')"  
+CYANBG="$(printf '\033[46m')"  
+WHITEBG="$(printf '\033[47m')" 
+BLACKBG="$(printf '\033[40m')"
+DEFAULT_FG="$(printf '\033[39m')"  
+DEFAULT_BG="$(printf '\033[49m')"
 
  clear 
  
@@ -56,24 +69,18 @@ echo "${WHITE}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻
 echo "${WHITE}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"
 echo " "
 cd $HOME 
+cd
 rm -rf Fromv1-2009-UCH
 git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git 
- 
+cd Fromv1-2009-UCH
 clear 
  
 echo "" 
 echo -e "$red [ $yellow + $red ] $green Tools UCH 2009 was successfully updated. $resetcollor"
- 
- sleep 3.7 
- 
- echo "" 
- cd $HOME 
- cd Fromv1-2009-UCH
- cd
- cd Fromv1-2009-UCH
- bash install.sh
- 
+sleep 3.7 
+bash install.sh
  clear
+ 
  echo " "
  echo -e "${RED}[${ORANGE}+${RED}] ${GREEN} Going Out ! "
  echo -e "${RED}[${ORANGE}!${RED}]${WHITE} apabila tua mau masuk ke toolsnya lagi bisa ketikan Command"
