@@ -5,7 +5,7 @@
 #KAYA GAK SEKOLAH AJING TOD
 #TOOLS VERSI 1.0 DI BUAT TANGGAL 25 AGUSTUS 2023
 
-# Warna data 
+# WARNA CODE
 
 b='\033[1m'
 u='\033[4m'
@@ -22,15 +22,28 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 
-RED="$(printf '\033[31m')"  GREEN="$(printf '\033[32m')"  ORANGE="$(printf '\033[33m')"  BLUE="$(printf '\033[34m')"
-MAGENTA="$(printf '\033[35m')"  CYAN="$(printf '\033[36m')"  WHITE="$(printf '\033[37m')" BLACK="$(printf '\033[30m')"
-REDBG="$(printf '\033[41m')"  GREENBG="$(printf '\033[42m')"  ORANGEBG="$(printf '\033[43m')"  BLUEBG="$(printf '\033[44m')"
-MAGENTABG="$(printf '\033[45m')"  CYANBG="$(printf '\033[46m')"  WHITEBG="$(printf '\033[47m')" BLACKBG="$(printf '\033[40m')"
-DEFAULT_FG="$(printf '\033[39m')"  DEFAULT_BG="$(printf '\033[49m')"
+RED="$(printf '\033[31m')"  
+GREEN="$(printf '\033[32m')"  
+ORANGE="$(printf '\033[33m')"  
+BLUE="$(printf '\033[34m')"
+MAGENTA="$(printf '\033[35m')"  
+CYAN="$(printf '\033[36m')"  
+WHITE="$(printf '\033[37m')" 
+BLACK="$(printf '\033[30m')"
+REDBG="$(printf '\033[41m')"  
+GREENBG="$(printf '\033[42m')"  
+ORANGEBG="$(printf '\033[43m')"  
+BLUEBG="$(printf '\033[44m')"
+MAGENTABG="$(printf '\033[45m')"  
+CYANBG="$(printf '\033[46m')"  
+WHITEBG="$(printf '\033[47m')" 
+BLACKBG="$(printf '\033[40m')"
+DEFAULT_FG="$(printf '\033[39m')"  
+DEFAULT_BG="$(printf '\033[49m')"
 
 clear
 
-#data sepesifikasi hp code
+# DATA SEPISIFIKASI ANDA
 
 NOW=`date "+%d.%m.%Y"`
 TIME=`date "+%H:%M"`
@@ -45,7 +58,7 @@ clear
 
 sleep 1
 
-# tampilan awal Script
+# TAMPILAN AWAL SCRIPT
 
 echo " "
 echo " "
@@ -89,7 +102,7 @@ echo -e "           ${WHITE}SEBELUM MASUK KE FROM UCH SUBSCRIBE FULU LAH CN AING
           am start -a android.intent.action.VIEW https://www.youtube.com/@unlimited-crak-you
 sleep 5
 
-# tampilan login 
+# TAMPILAN LOGIN
 
 clear
 
@@ -115,7 +128,7 @@ echo -e $w"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠃⣀⠀⠀⠀
 echo -e $w"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 echo " "
 
-# from image login
+# FROM LOGIN PY
 
 echo -e ${GREEN}"  ▄▀▀▀▄"
 echo -e ${GREEN} "███████         ▄▀▀▄  ${WHITE}╔═╗ ╔═╗ ╔═╗ ╔═╗ ╦┈╦ ╔═╗ ╦═╗ ╔╦╗   ╦   ╔═╗ ╔═╗ ╦ ╔╗╔  "
@@ -123,7 +136,7 @@ echo -e ${GREEN} "██ ▀ ██  █▀█▀▀▀▀█  █  ${WHITE}╠�
 echo -e ${GREEN} "███▄███  ▀ ▀     ▀▀   ${WHITE}╩┈┈ ╩┈╩ ╚═╝ ╚═╝ ╚╩╝ ╚═╝ ╩╚═ ═╩╝   ╩═╝ ╚═╝ ╚═╝ ╩ ╝╚╝  "
 echo -e $w"        ╔══╝ ╚════╗    ${WHITE}password login ada di link yang sudah di siapkan"
 
-# link buat download password 
+# LINK BUAT PASSWORD LOGIN
 
 echo " "
 echo "${WHITE}LINK PASSWORD BUAT LOGIN => ${ORANGE}https://adpayl.ink/password-login-uch-2009 "
@@ -132,7 +145,7 @@ echo " "
 
 sleep 2
 
-# masuk halaman login
+# MASUK HALAMAN
 
 cd pwsd-tools
 python2 pwd-login-uch.py
@@ -145,16 +158,12 @@ echo "${WHITE} ┃━┛┃┳┛┃ ┃┗━┓┣━ ┗━┓   ┃ ┃ ┃ 
 echo "${WHITE} ┇  ┇┗┛┛━┛━━┛┻━┛━━┛   ┇ ┛━┛  ┇  ┇┗┛┛━┛┛ ┇  ┇━┛┗━┛┇ ┻"
 echo " "
 
-# masuk halaman login install
+# MASUK HALAMAN LOGIN FROM
 
-cd
-cd
-git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
-cd Fromv1-2009-UCH
-cd login-tools
 python login-install.py
-
 clear
+
+#HALAMAN TUAN
 
 sleep 1s
 
@@ -193,13 +202,13 @@ echo -e "  ${WHITE}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
 sleep 5s
 clear
 
-# pengulangan back
+# PENGULANGAN TOOLS
 
 lagi=1
 while [ $lagi -lt 20 ];
 do
 
-# installasi Tipe
+# INSTALASI TIPE
 
 echo " "
 echo -e "${WHITE} ╦ ╔╗╔ ╔═╗ ╔╦╗ ╔═╗ ╦   ╦   ╔═╗ ╔═╗ ╦   ╔╦╗ ╦ ╔═╗ ╔═╗  "
@@ -221,7 +230,7 @@ echo ""
 
 sleep 2s
 
-# pilih number
+# PILIH NOMER
 
 echo -e $w "┏⟦ Pilih Software sesuai yang tuan gunakan :) "
 read -p  " ┗☞ Enter Your Number :" pil  ;
@@ -235,7 +244,7 @@ echo "${WHITE}╩ ╝╚╝ ╚═╝ ┈╩┈ ╩┈╩ ╩═╝ ╩═╝ �
 echo "${WHITE}   [${GREEN} TIPE INSTALLASI TERMUX , LINUX , NETHUNTER ${WHITE}]"
 echo " "
 
-# installasi Termux 
+# INSTALASI TERMUX
 
 case $pil in
 1)echo " "
@@ -249,11 +258,11 @@ echo  " "
 echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software installasi Termux tunggu sampai instalasinya selesai"
 sleep 1s
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Installing In Termux..."
-    echo " "
-      sleep 2s
-   echo "~{${ORANGE} Bersiap Untuk Menginstal Tuan ${GREEN}}~"
-      sleep 3s
-    echo " "
+echo " "
+sleep 2s
+echo "~{${ORANGE} Bersiap Untuk Menginstal Tuan ${GREEN}}~"
+sleep 3s
+echo " "
          
 pkg upgrade && pkg update
 pkg install git
@@ -267,13 +276,19 @@ pkg install ruby
 gem install lolcat
 pip2 install requests
 pip2 install termcolor
-git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
-cd Fromv1-2009-UCH
-bash Fromv1.sh
-	
+cd $HOME
+cd
+rm -rf Command
+git clone https://github.com/Unlimited-Crack-You/Command.git
+cd Command
+chmod +x *
+git pull
+echo "${BLUE}[${RED}✓${BLUE}] ${GREEN} INSTALASINYA SCRIPT SELESAI TUAN ..."
+bash Fromv1-Termux.sh
+
 ;;
 
-# installasi Linux
+# INSTALLASI LINUX
 
 2)echo " "
 echo "${RED} ╦   ╦ ╔╗╔ ╦ ╦ ═╗ ╦ "
@@ -286,11 +301,11 @@ echo  " "
 echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software installasi Linux tunggu sampai instalasinya selesai"
 sleep 1s
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Installing In Linux..."
-    echo " "
-      sleep 2s
-   echo "~{${ORANGE} Bersiap Untuk Menginstal Tuan }~"
-      sleep 3s
-    echo " "
+echo " "
+sleep 2s
+echo "~{${ORANGE} Bersiap Untuk Menginstal Tuan }~"
+sleep 3s
+echo " "
     
 apt upgrade && pkg update
 apt install git
@@ -304,13 +319,19 @@ apt install ruby
 gem install lolcat
 pip2 install requests
 pip2 install termcolor
-git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
-cd Fromv1-2009-UCH
-bash Fromv1.sh
+cd $HOME
+cd
+rm -rf Command
+git clone https://github.com/Unlimited-Crack-You/Command.git
+cd Command
+chmod +x *
+git pull
+echo "${BLUE}[${RED}✓${BLUE}] ${GREEN} INSTALASINYA SCRIPT SELESAI TUAN ..."
+bash Fromv1-Linux.sh
 
 ;;
 	
-# installasi Kali Linux
+# INSTALASI KALI LINUX
 
 3)echo " "
 echo "${RED} ╦╔═ ╔═╗ ╦   ╦   ╦   ╦ ╔╗╔ ╦ ╦ ═╗ ╦ "
@@ -323,11 +344,11 @@ echo  " "
 echo "${BLUE}[${RED}!${BLUE}] ${GREEN}Tuan Mengunakan Software installasi Kali Linux tunggu sampai instalasinya selesai"
 sleep 1s
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN}Loading Installing In Kali Linux ..."
-    echo " "
-      sleep 2s
-   echo "~{${ORANGE} Bersiap Untuk Menginstal Tuan }~"
-      sleep 3s
-    echo " "
+echo " "
+sleep 2s
+echo "~{${ORANGE} Bersiap Untuk Menginstal Tuan }~" 
+sleep 3s
+echo " "
 
 sudo apt-get upgrade && pkg update
 sudo apt-get install git
@@ -341,9 +362,15 @@ sudo apt-get install ruby
 sudo gem install lolcat
 sudo pip2 install requests
 sudo pip2 install termcolor
-git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH.git
-cd Fromv1-2009-UCH
-bash Fromv1.sh
+cd $HOME
+cd
+rm -rf Command
+git clone https://github.com/Unlimited-Crack-You/Command.git
+cd Command
+chmod +x *
+git pull
+echo "${BLUE}[${RED}✓${BLUE}] ${GREEN} INSTALASINYA SCRIPT SELESAI TUAN ..."
+bash Fromv1-NET-HR.sh
 
 ;;
 
@@ -366,7 +393,7 @@ echo "~{${ORANGE} TUUAN TELAH LOGOUT DARI FROM UCH BAY BAY ${GREEN}}~"
 sleep 3s
 echo " "
 echo -e $bu"KHO :)" 
-echo -e $bu"THANK'S Sampai Jumpa di Kemudian Hari"
+echo -e $bu" Terima kasih Sampai Jumpa di Kemudian Hari"
 printf "\e[103m\e[1;77mBY : UCH 2009 FROM \e[0m\n"
 sleep 1
 clear
