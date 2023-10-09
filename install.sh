@@ -493,7 +493,7 @@ cd Command
 chmod +x *
 git pull
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN} INSTALASINYA SCRIPT SELESAI TUAN ..."
-bash Fromv1-Termux.sh
+bash welcome.sh
 
 ;;
 
@@ -745,7 +745,7 @@ cd Command
 chmod +x *
 git pull
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN} INSTALASINYA SCRIPT SELESAI TUAN ..."
-bash Fromv1-Linux.sh
+bash welcome2.sh
 
 ;;
 	
@@ -997,7 +997,7 @@ cd Command
 chmod +x *
 git pull
 echo "${BLUE}[${RED}✓${BLUE}] ${GREEN} INSTALASINYA SCRIPT SELESAI TUAN ..."
-bash Fromv1-NET-HR.sh
+bash welcome3.sh
 
 ;;
 
