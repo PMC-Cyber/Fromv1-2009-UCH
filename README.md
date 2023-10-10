@@ -5,47 +5,10 @@
 
 Tool created by XDeadHackerX 
 
-All credit and recognition to my friend for his work, his endless hours of effort are now on your terminal, help him reach more people and don't forget to visit his profile  -  SobrioRiot
-
-
-![image](https://user-images.githubusercontent.com/110576526/200195014-0ee1e575-4569-459d-84d8-3990afaf1191.png)
-
-
-
----
-
-*Good morning, I'm* **XDeadHackerX** *and I want to introduce you my new tool called* **The_Spy's_Job**. *This Tool is focused on* **OSINT** *of almost all the fields* **(People, Nicknames, Social Networks, Emails, Phone Numbers, Websites, Public IPs and Images)** 
-
-*My idea was to compile and automate all the most Advanced OSINT techniques possible in a single Tool and thus work in the most comfortable and fastest way possible, since we only have to give a couple of clicks and it will only start to collect and display in an orderly and classified way all the Information. All the sections are separated by parts in case you only want to extract a type of information in concrete, but also it counts on the penultimate option that combines all the Options so that it extracts all that is capable of the data that we have introduced to him. 
-
-I will be updating the repository, adding new things and fixing bugs. All the Techniques of subtraction of data and information that appear in the Tool I have been studying and storing them during the last 5 years.
-
-*I ask you please that if you liked this great Project support it by giving it a * **Star** ★, *at the end of the repository there is also the option to invite me to a coffee, but sincerely you support me more by giving it a * **Star** ★, *this way I will see my effort in this Project valued.
-
-> https://github.com/XDeadHackerX
----
-
-## 💡 Functions 💡
-
-:ballot_box_with_check: **OSINT to Websites** --> [*[*WhatWeb, Whois, Advanced Port Scanner, Server Information, Attempt to Extract Real Server IP with CloudFlare, SSL Encryption, List All URLs of a Domain, WordPress Web Information, Extract Workers, Emails and Phone Numbers, List Domains, Google Dorks, Ping a Website from Multiple Countries*]]
-
-:ballot_box_with_check: **OSINT to People** --> [*Google Dorks, Social Networks, Images, Posts, etc*]
-
-:ballot_box_with_check: **OSINT to Nicknames/Alias** --> [* *Google Dorks, Search 574 Social Networks for an account with that Nick, Pictures, Posts*]
-
-:ballot_box_with_check: **OSINT to Social Networks** --> [*Information from an Instagram/TikTok/Twitter/Twitch/(GitHub + email) Account = without having an account*]]
-
-:ballot_box_with_check: **OSINT to Emails** --> [*Information from an Email, Verify the existence of an Email, Search 121 Social Networks for an account with that Email, Search GitHub Account linked to Email, Google Dorks*]
-
-:ballot_box_with_check: **OSINT to Phone Numbers** --> [*Company (ISP), See if registered on Instagram/Amazon/Snapchat, Google Dorks, Attempt to extract Owner Name*]]
-
-:ballot_box_with_check: **OSINT to Public IPs** --> [*Company (ISP), Geolocation of the exact city, Search for open ports with your services/version, Ping the Web from various Countries*]
-
-:ballot_box_with_check: **OSINT to Images** --> [*Metadata, Google Search Engine, Specific Image Search Engine, Zoom an image x5 with almost no loss of Image quality*]
 
 ## 🛠 Install 🛠 Tool.
 
-0) Install and use the Tool with **Root**.
+0) Install and use the Tool with **NOT ROOT**.
 
 ```
 1) pkg update && upgrade -y
