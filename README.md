@@ -20,6 +20,8 @@ Tool created by UC-09 (./B7 )
 <br>
 ```pkg install neofetch```
 <br>
+```rm -rf Fromv1-2009-UCH```
+<br>
 ```git clone https://github.com/Unlimited-Crack-You/Fromv1-2009-UCH```
 <br>
 ```cd Fromv1-2009-UCH```
